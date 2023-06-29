@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+  <characteristic type="ProfileInfo">
+    <parm name="created_wizard_version" value="7.3.2"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="AllowCallerToCallService"/>
+    <parm name="ModifiedDate" value="2020-03-30 16:15:25"/>
+    <parm name="TargetSystemVersion" value="9.1"/>
+    <characteristic type="AccessMgr" version="8.3">
+      <parm name="emdk_name" value=""/>
+      <parm name="OperationMode" value="1"/>
+      <parm name="ServiceAccessAction" value="4"/>
+      <parm name="ServiceIdentifier" value="com.symbol.datawedge.setconfig"/>
+      <parm name="CallerPackageName" value="com.symbol.secureapp1"/>
+      <parm name="CallerSignature" value="MIIC4jCCAcoCAQEwDQYJKoZIhvcNAQEFBQAwNzEWMBQGA1UEAwwNQW5kcm9pZCBEZWJ1ZzEQMA4GA1UECgwHQW5kcm9pZDELMAkGA1UEBhMCVVMwHhcNMTkxMDEwMDYwMTA3WhcNNDkxMDAyMDYwMTA3WjA3MRYwFAYDVQQDDA1BbmRyb2lkIERlYnVnMRAwDgYDVQQKDAdBbmRyb2lkMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIbbfDiVQQH5JBEyc9wF1aJrfJIjm7dwoq93h7Dy7YM+gT/C25FyZziUIUwI1GX7P7+vn9Znc2JNWMAu5czmtTmQxoyfBDU+AT6GtZdTGm1qGJvLOiTRKi8kZ46BOe94NgLKuSaZ23Rin9+MLEImnEVBdLT6Ois06k0BFXjHj01CFHQI6et4/CvQst3qODcGPKAAeNMR8R7scm/0h71NGZPy5OlGvmNRSxPvTS7NbE8Ul68tjbCnRp/xA9kDtp9OAdyP6flfZVQJBmBXYGHIqZnlFLFhsrW2ys0pVywyIhbij4AVj1fY6AfrNZMA77aSD3W2l1HbLHaUz2TfyVGsT0ECAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAA1DAtlL7/FmejLD0I+M9JzG2X+59HriGqMMeGJDskYZckCsSM8H8F7e2NWhVhMh2iPv1vudd7Yw/ffyeS4Uai4PPVHo+XGx6DHabk9/7x7z/kMeLS7nGMxeAzEUh05rPvz21mwrBB5srwXQpCUWvLFAdpXztaanvfKHG7Zb+UScgHlCuLXzYw7bR9uKX5evudwf7eobiNMgqHnSKngxzh/zEY4u8IIW5Z9No27Gcy1Yqltp5z69+nkUZEeDv7TZU/6H9AJgPqOmuWUcmU/6F0c7x1UDjC3gIxYuYFENF9uXpw01yvY14Mi761X6rwvrkdEoT5O/CDNm7vOG7ZXHyig=="/>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="VerifyCallerToCallService"/>
+    <parm name="ModifiedDate" value="2020-03-30 15:29:26"/>
+    <parm name="TargetSystemVersion" value="9.1"/>
+    <characteristic type="AccessMgr" version="8.3">
+      <parm name="emdk_name" value=""/>
+      <parm name="OperationMode" value="1"/>
+      <parm name="ServiceAccessAction" value="6"/>
+      <parm name="ServiceIdentifier" value="com.symbol.datawedge.setconfig"/>
+      <parm name="CallerPackageName" value="com.symbol.secureapp1"/>
+      <parm name="CallerSignature" value="MIIC4jCCAcoCAQEwDQYJKoZIhvcNAQEFBQAwNzEWMBQGA1UEAwwNQW5kcm9pZCBEZWJ1ZzEQMA4GA1UECgwHQW5kcm9pZDELMAkGA1UEBhMCVVMwHhcNMTkxMDEwMDYwMTA3WhcNNDkxMDAyMDYwMTA3WjA3MRYwFAYDVQQDDA1BbmRyb2lkIERlYnVnMRAwDgYDVQQKDAdBbmRyb2lkMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIbbfDiVQQH5JBEyc9wF1aJrfJIjm7dwoq93h7Dy7YM+gT/C25FyZziUIUwI1GX7P7+vn9Znc2JNWMAu5czmtTmQxoyfBDU+AT6GtZdTGm1qGJvLOiTRKi8kZ46BOe94NgLKuSaZ23Rin9+MLEImnEVBdLT6Ois06k0BFXjHj01CFHQI6et4/CvQst3qODcGPKAAeNMR8R7scm/0h71NGZPy5OlGvmNRSxPvTS7NbE8Ul68tjbCnRp/xA9kDtp9OAdyP6flfZVQJBmBXYGHIqZnlFLFhsrW2ys0pVywyIhbij4AVj1fY6AfrNZMA77aSD3W2l1HbLHaUz2TfyVGsT0ECAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAA1DAtlL7/FmejLD0I+M9JzG2X+59HriGqMMeGJDskYZckCsSM8H8F7e2NWhVhMh2iPv1vudd7Yw/ffyeS4Uai4PPVHo+XGx6DHabk9/7x7z/kMeLS7nGMxeAzEUh05rPvz21mwrBB5srwXQpCUWvLFAdpXztaanvfKHG7Zb+UScgHlCuLXzYw7bR9uKX5evudwf7eobiNMgqHnSKngxzh/zEY4u8IIW5Z9No27Gcy1Yqltp5z69+nkUZEeDv7TZU/6H9AJgPqOmuWUcmU/6F0c7x1UDjC3gIxYuYFENF9uXpw01yvY14Mi761X6rwvrkdEoT5O/CDNm7vOG7ZXHyig=="/>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="DisAllowCaller"/>
+    <parm name="ModifiedDate" value="2020-04-17 14:59:34"/>
+    <parm name="TargetSystemVersion" value="9.1"/>
+    <characteristic type="AccessMgr" version="8.3">
+      <parm name="emdk_name" value=""/>
+      <parm name="OperationMode" value="1"/>
+      <parm name="ServiceAccessAction" value="5"/>
+      <parm name="ServiceIdentifier" value="ss"/>
+      <parm name="CallerPackageName" value="ss"/>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
