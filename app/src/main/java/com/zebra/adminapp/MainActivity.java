@@ -2,6 +2,7 @@ package com.zebra.adminapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.util.Xml;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.symbol.emdk.EMDKManager;
 import com.symbol.emdk.EMDKResults;
@@ -276,12 +278,11 @@ public class MainActivity extends AppCompatActivity implements EMDKManager.EMDKL
         }
     }
 
-    String getCallerSignatureBase64Encoded(String packageName) {
+    String getCallerSignatureBase64Encoded(String packageName){
         String callerSignature = null;
 
         try {
-            Signature sig = getApplicationContext().getPackageManager().getPackageInfo(packageName,
-                    64).signatures[0];
+            Signature sig = getApplicationContext().getPackageManager().getPackageInfo(packageName, 64).signatures[0];
             if (sig != null) {
                 byte[] data = Base64.encode(sig.toByteArray(), 0);
                 String signature = new String(data, StandardCharsets.UTF_8);
@@ -290,6 +291,9 @@ public class MainActivity extends AppCompatActivity implements EMDKManager.EMDKL
             }
         } catch (Exception var6) {
             Log.e("SignatureVerifier", "exception in getting application signature:" + var6.toString());
+            Toast.makeText(this, "EXCP:"+var6.toString(), Toast.LENGTH_SHORT).show();
+
+            //suddenly getting exception in getting application signature:android.content.pm.PackageManager$NameNotFoundException: com.ndzl.zwc
         }
 
         return callerSignature;

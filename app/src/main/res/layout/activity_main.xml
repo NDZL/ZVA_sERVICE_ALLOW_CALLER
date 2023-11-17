@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"></TextView>
 
     <EditText
-        android:text="com.example.mytest"
+        android:text="com.ndzl.zwc"
         android:id="@+id/txtPackageName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></EditText>
